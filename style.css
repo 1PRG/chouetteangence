@@ -14,10 +14,11 @@ ul li {
 
 }
 .container_page {
+  margin: auto;
   max-width: 1400px;
   border: 2px solid  #000;
   border-radius: 15px;
-  margin-top: 5px;
+  margin-top: 5px
 }
 
 /* le header */
@@ -25,6 +26,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 .navBar {
   width: 300px;
@@ -40,31 +42,103 @@ header {
 .navBar ul li {
 margin-bottom: 5px;
 }
-.navBar ul li:hover,
-.navBar ul li:focus {
-background-color: #dba162;
-font-style: italic;
-font-weight: bold;
+/* le contenu Principal */
+.container_main {
+  margin: auto;
+  width: 95%;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 15px;
 }
+.contenuPrincipal {
+  padding: 15px;
+}
+.contenuPrincipal p {
+  text-align: justify;
+}
+
+
 
 /* le footer */
 
 footer {
   width: 100%;
-  /* display: flex; */
+  margin-top: 5px;
+}
+.container_footer {
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 80%;
+  margin-bottom: 5px;
 }
 .socialNetwork {
-  width: auto;
-  display: flex;
-  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.titreFooter {
+  width: 80%;
+  margin: auto;
+}
+.titreFooter h4 {
+  font-size: 14px;
+  text-align: center;
 }
 .socialNetwork ul {
   width: 50%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 .socialNetwork ul li {
 margin: 5px;
-
+}
+.socialBock h5 {
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+}
+/* .socialList li {
+  width: 50px;
+  height: 50px;
+} */
+.fa-twitter,
+.fa-facebook-square,
+.fa-dribbble-square,
+.fa-instagram-square {
+  font-size: 24px;
+  color: #0000ff;
+}
+.linkPages {
+  padding: 5px;
+  width: 65%;
+}
+.linkPages div ul li {
+  margin-bottom: 5px;
+}
+.linkPages div ul {
+  width: 80%;
+  margin-right: 2px;
+}
+/* Au survol de la souris */
+.navBar ul li:hover,
+.navBar ul li:focus,
+.linkPages div ul li:hover,
+.linkPages div ul li:focus {
+background-color: #dba162;
+font-style: italic;
+font-weight: bold;
+cursor: pointer;
+}
+.socialList lu li a:hover,
+.socialList lu li a:focus
+/* .fa-twitter:hover,
+.fa-facebook-square:hover,
+.fa-dribbble-square:hover,
+.fa-instagram-square:hover,
+.fa-twitter:focus,
+.fa-facebook-square:focus,
+.fa-dribbble-square:focus,
+.fa-instagram-square:focus */
+ {
+transform: scale(1.5);
 }
