@@ -6,11 +6,14 @@
   <meta name="keywords" content="">
   <meta name="description" content="La Chouette Agence du web design est basée à Lyon vous permettant de développer votre activité et vous donne de la visibilité sur le web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
   <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
 
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="style.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="formulaire.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="formulaire.css">
   <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
@@ -27,16 +30,161 @@
 
 <body>
   <!-- Page consacrée au formulaire de contact -->
+  <!-- la Page d'Accueil -->
   <div class="container_page">
+    <!-- Entête et navigation -->
     <header>
+      <div class="container_logo">
+        <a href="index.html">
+          <img src="./img/la-chouette-agence.png" alt="Une chouette" titre="La chouette Agence, logo de l'entreprise">
+        </a>
+      </div>
+      <nav class="navBar">
+        <ul>
+          <li>
+            <a href="index.html">Accueil</a>
+          </li>
+          <li>
+            <a href="aproposdenous.html">A Propos de nous</a>
+          </li>
+          <li>
+            <a href="#">Explorer nos réalisations</a>
+          </li>
+          <li>
+            <a href="nospartenaires.html">Nos Partenaires</a>
+          </li>
 
+        </ul>
+      </nav>
     </header>
+    <!-- Fin de l'entête et de la navigation -->
+    <!-- Le Contenu Principal  -->
     <div class="container_main">
+      <div class="contenuPrincipal">
+        <div class="formulaireContact">
+          <form action="" method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="Nom">Nom :</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre Nom" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail">E-mail :</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="monPseudo@gmail.com" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail">Téléphone :</label>
+                <input type="phone" class="form-control" id="inputEmail4" placeholder="+33 4 72 98 54 04" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Addresse :</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1 Place de la Comédie" required>
+            </div>
 
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Ville :</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Lyon" required>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Pays :</label>
+                <select id="inputState" class="form-control" required>
+                  <option selected>France</option>
+                  <option>Pays Membre de l'U.E.</option>
+                  <option>United Kingdom</option>
+                  <option>Etats-Unis</option>
+                  <option>Canada</option>
+                  <option>Australie</option>
+                  <option>Japon</option>
+                  <option>Corée du Sud</option>
+                  <option>Inde</option>
+                  <option>Autre</option>
+
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputMessage">Dites-moi en plus :</label>
+                <textarea id="message" class="form-control" rows="4" cols="50" placeholder="Votre Message"></textarea>
+              </div>
+            </div>
+            <div class="">
+
+            </div>
+            <div class="buttonBlock">
+              <a href="#">
+                <button type="submit" class="btn btn-submit">Envoyer</button>
+              </a>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
     </div>
+    <!-- fin du Contenu Principal -->
+    <!-- le pied de page -->
     <footer>
+      <div class="container_footer">
+        <div class="socialNetwork">
+          <div class="titreFooter">
+            <h4>Vote Chouette Agence,<br /> du web design, basé à Lyon</h4>
+          </div>
+          <div class="socialBock">
+            <h5>Suivez-nous sur vos réseaux sociaux</h5>
+            <ul class="socialList">
+              <li>
+                <a href="https://twitter.com/">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://fr-fr.facebook.com/">
+                  <i class="fa-brands fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://dribbble.com/l">
+                  <i class="fa-brands fa-dribbble-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/l">
+                  <i class="fa-brands fa-instagram-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-
+        <div class="linkPages">
+          <div id="whois_us" class="linkList">
+            <h5>Notre identité</h5>
+            <ul>
+              <li>
+                <a href="#">Qui sommes-nous ?</a>
+              </li>
+              <li>
+                <a href="#">Mentions Legales</a>
+              </li>
+              <li>
+                <a href="#">Plan du site</a>
+              </li>
+            </ul>
+          </div>
+          <div id="howTo_agir" class="linkList">
+            <h5>Nos partenariats</h5>
+            <ul>
+              <li>
+                <a href="#">Notre Clientèle</a>
+              </li>
+              <li>
+                <a href="nospartenaires.html">Nos Partenaires</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </body>

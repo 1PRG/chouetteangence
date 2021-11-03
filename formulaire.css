@@ -65,40 +65,14 @@ margin-bottom: 5px;
 .contenuPrincipal {
   padding: 15px;
 }
-.contenuPrincipal p {
-  text-align: justify;
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 15px;
-}
-/* le bouton contact */
-.actionBlock {
-  width: 100%;
-  height: auto;
-  padding: 15px;
-  margin-bottom: 5px;
-}
-.actionBlock div {
-  width: 50%;
-  margin: auto;
-}
-.titreAction {
-  text-align: center;
-}
-.titreAction h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.buttonBlock {
+.formulaireContact {
+  width: 80%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
-.buttonBlock a button {
-  background-color: #F3976C;
-  width: 250px;
-  height: 50px;
-  border-radius: 15px;
-  font-size: 22px;
+.formulaireContact form {
+  justify-content: flex-end;
+
 }
 
 /* fin du contenu Principal */
