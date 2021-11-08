@@ -814,6 +814,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+/* Tentative de rectification du décalage de la navbar dans la page du
+formulaire */
+
+#container__navBar {
+  margin-right: 80px;
+}
+/* Limite de la Tentative */
 
 @media (max-width: 1024px) {
     .bloc {
