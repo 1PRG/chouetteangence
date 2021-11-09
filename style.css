@@ -820,6 +820,9 @@ formulaire */
 #container__navBar {
   margin-right: 80px;
 }
+#entete {
+  display: flex;
+}
 /* Limite de la Tentative */
 
 @media (max-width: 1024px) {
